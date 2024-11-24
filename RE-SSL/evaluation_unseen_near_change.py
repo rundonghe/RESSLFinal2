@@ -88,7 +88,7 @@ def resize_image(image):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--root', type=str, default='/root/hrd_pg/safeSSL-evaluation/data')
+    parser.add_argument('--root', type=str, default='data')
     parser.add_argument('--dataset', type=str, default='cifar-10')
     parser.add_argument('--batch_size', type=int, default=128)
     parser.add_argument('--iteration', type=int, default=5000)
